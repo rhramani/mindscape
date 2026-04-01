@@ -61,7 +61,7 @@ const CustomCursor = () => {
           backgroundColor: isHovering ? 'rgba(141, 181, 28, 0.1)' : 'transparent',
           rotate: isHovering ? 90 : 0,
         }}
-        className="fixed border rounded-full transition-colors duration-300"
+        className="fixed border rounded-full transition-colors duration-300 "
       />
 
       {/* Inner Dot */}
