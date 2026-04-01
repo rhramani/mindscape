@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.2.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "axios": "latest",
+    "react-hook-form": "latest",
+    "zod": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest",
+    "next-themes": "latest",
+    "swiper": "latest",
+    "masonry-layout": "latest",
+    "react-masonry-css": "latest",
+    "react-dropzone": "latest",
+    "react-quill": "latest",
+    "@hookform/resolvers": "latest",
+    "chart.js": "latest",
+    "react-chartjs-2": "latest",
+    "recharts": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.2",
+    "tailwindcss": "^4"
+  }
+}
