@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import MainLayout from '@/components/layout/MainLayout';
 import { motion } from 'framer-motion';
 import { Building2, Globe, Heart, CheckCircle2, Award, Briefcase, Users, MessageSquare } from 'lucide-react';
