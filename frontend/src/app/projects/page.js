@@ -9,7 +9,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
 import api from '@/lib/api';
 
-const ProjectsPage = () => {
+const ProjectsContent = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [projects, setProjects] = useState([]);
@@ -299,6 +299,20 @@ const ProjectsPage = () => {
         </div>
       </section>
     </MainLayout>
+  );
+};
+
+const ProjectsPage = () => {
+  return (
+    <React.Suspense fallback={
+      <div className="min-h-screen bg-secondary flex items-center justify-center">
+        <div className="relative w-24 h-24">
+           <div className="absolute inset-0 border-4 border-zinc-800 border-t-primary rounded-full animate-spin" />
+        </div>
+      </div>
+    }>
+      <ProjectsContent />
+    </React.Suspense>
   );
 };
 
