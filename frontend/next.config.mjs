@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'images.unsplash.com',
       },
+      {
+        protocol: 'https',
+        hostname: '**', // Allow all for initial setup, you can restrict this later
+      },
     ],
   },
 };
