@@ -4,6 +4,7 @@ import React from 'react';
 import MainLayout from '@/components/layout/MainLayout';
 import { motion } from 'framer-motion';
 import { Quote, Star, User, Building2, MapPin, CheckCircle2, Heart, Award } from 'lucide-react';
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
